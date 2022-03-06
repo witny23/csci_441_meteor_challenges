@@ -9,14 +9,17 @@ import {Instructions} from '../imports/instructions.js';
 
 
 
-const renderCandidates = function (candidateObject) {
-  let candidateInfo = candidateObject.map(function(candidate){
+// const renderCandidates = function (candidateObject) {
+//   let candidateInfo = candidateObject.map(function(candidate){
+const renderCandidates = (candidateObject) => {
+  let candidateInfo = candidateObject.map((candidate) => {
     return <p key={candidate._id}>{candidate.name} has {candidate.votes} vote[s]</p>;
   });
   return candidateInfo;
 };
 
-const processFormDataFunction = function (event) {
+// const processFormDataFunction = function (event) {
+const processFormDataFunction = (event) => {
   event.preventDefault();
   let candidateName = event.target.formInputNameAttrubute.value;
 
@@ -30,8 +33,10 @@ const processFormDataFunction = function (event) {
 };
 
 
-Meteor.startup(function(){
-  Tracker.autorun(function(){ 
+// Meteor.startup(function(){
+//   Tracker.autorun(function(){ 
+Meteor.startup(() => {
+  Tracker.autorun(() => { 
 
 
     let candidates = Candidates.find().fetch();
