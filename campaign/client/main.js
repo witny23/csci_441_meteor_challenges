@@ -9,16 +9,34 @@ import {Instructions} from '../imports/instructions.js';
 
 
 
-// const renderCandidates = function (candidateObject) {
-//   let candidateInfo = candidateObject.map(function(candidate){
 const renderCandidates = (candidateObject) => {
   let candidateInfo = candidateObject.map((candidate) => {
-    return <p key={candidate._id}>{candidate.name} has {candidate.votes} vote[s]</p>;
+    return (
+      <p key={candidate._id}>
+      <button onClick={() => { 
+// on the following line, remove a candidate from the db 
+      
+
+      }}>X</button> 
+      <button onClick={() => { 
+// on the following line, add a vote for the candidate 
+      
+
+      }}>+1</button> 
+{/* In the following lines, create a button that will remove a vote from the candidate */ }
+
+
+
+
+      {' ' + candidate.name} has {candidate.votes} vote[s] {' '}
+
+      </p>
+      
+    );
   });
   return candidateInfo;
 };
 
-// const processFormDataFunction = function (event) {
 const processFormDataFunction = (event) => {
   event.preventDefault();
   let candidateName = event.target.formInputNameAttrubute.value;
@@ -33,8 +51,6 @@ const processFormDataFunction = (event) => {
 };
 
 
-// Meteor.startup(function(){
-//   Tracker.autorun(function(){ 
 Meteor.startup(() => {
   Tracker.autorun(() => { 
 
