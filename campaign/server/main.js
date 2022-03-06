@@ -66,14 +66,25 @@ Meteor.startup(function(){
 
   */
   
-    
+      class Animal_4 {
+        constructor(name='unknown', breed='unknown'){
+            this.name = name;
+            this.breed = breed;
+        }
+        getGreeting(){
+          return `This kitten's name is ${this.name}`;
+        }
+        getKittenDescription(){
+          return `${this.name}'s breed is ${this.breed}`;
+        }
+      }
+      let kitten_4 = new Animal_4();
+      console.log(kitten_4.getGreeting());
+      console.log(kitten_4.getKittenDescription());
 
-
-
-
-
-
-
+      let kitten_5 = new Animal_4('Dora', 'grey tabby');
+      console.log(kitten_5.getGreeting());
+      console.log(kitten_5.getKittenDescription());
   
 /*
   Create a new class called Pet that extends Animal_4
@@ -95,17 +106,31 @@ Meteor.startup(function(){
     - call/log kitten_7's getFavToy and getOwner methods
 */
 
- 
+    class Pet extends Animal_4 {    // all Pets will be an animal
+        constructor(name, breed, favorite_toy='mouse', owner='HSYC') {
+            super(name, breed);
+            this.favorite_toy = favorite_toy;
+            this.owner = owner;
+        }
+        getFavToy(){
+            return `${this.name}'s favorite toy is a ${this.favorite_toy}`;
+        }
+        getOwner(){
+            return `${this.name}'s owner is ${this.owner}`;
+        }
+    }
+  
+    let kitten_6 = new Pet()
+    console.log(kitten_6.getGreeting());
+    console.log(kitten_6.getKittenDescription());
+    console.log(kitten_6.getFavToy());
+    console.log(kitten_6.getOwner());
 
-
-
-
-
-
-
-
-
-
+    let kitten_7 = new Pet('GoGo', 'Siamese', 'mouse', 'Pat')
+    console.log(kitten_7.getGreeting());
+    console.log(kitten_7.getKittenDescription());
+    console.log(kitten_7.getFavToy());
+    console.log(kitten_7.getOwner());
 
     
   });
