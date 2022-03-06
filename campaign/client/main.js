@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import {Meteor} from 'meteor/meteor';
 import {Candidates} from './../imports/api/candidates.js'; 
-
 import {Tracker} from 'meteor/tracker';
+import Instructions from '../imports/ui/Instructions.js'; // default export so no {}
 
-import {Instructions} from '../imports/instructions.js';
+import TitleBar from './../imports/ui/TitleBar.js'; // default export so no {}
 
 
 
@@ -46,23 +46,28 @@ const processFormDataFunction = (event) => {
 };
 
 
+
 Meteor.startup(() => {
   Tracker.autorun(() => { 
 
 
     let candidates = Candidates.find().fetch();
-    let title = 'The big Campaign';
+    // let title = 'The big Campaign';
 
     let jsx = (
       <div>
-        {Instructions}
+        <Instructions />
 
         <hr></hr>
-        <h1>{title}</h1>
+        {/********** swap out the old h1 with the TitleBar components  ***************/}
+        {/*<h1>{title}</h1>*/}
+        <TitleBar/>
+
         <form onSubmit={processFormDataFunction}>
           <input type='text' name='formInputNameAttrubute' placeholder='Candidate Name' />
           <button>Add Candidate</button>
         </form>
+        
         {renderCandidates(candidates)}
       </div>
     );
