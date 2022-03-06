@@ -6,7 +6,7 @@ import {Tracker} from 'meteor/tracker';
 import Instructions from '../imports/ui/Instructions.js'; // default export so no {}
 
 import TitleBar from './../imports/ui/TitleBar.js'; // default export so no {}
-
+import AddCandidates from './../imports/ui/AddCandidates.js';
 
 
 const renderCandidates = (candidateObject) => {
@@ -67,7 +67,7 @@ Meteor.startup(() => {
           <input type='text' name='formInputNameAttrubute' placeholder='Candidate Name' />
           <button>Add Candidate</button>
         </form>
-        
+        <AddCandidates/>
         {renderCandidates(candidates)}
       </div>
     );

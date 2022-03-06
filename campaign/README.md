@@ -1,5 +1,5 @@
 
-git React Component challenges for vids 15a, 15b
+git Completed React Component chllngs for vids 15a, 15b
 
 GOALS
 
