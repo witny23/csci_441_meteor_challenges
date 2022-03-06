@@ -1,5 +1,5 @@
 
-git mongoDB challenges for vids 11a, 12a
+git completed mongoDB challenges for vids 11a, 12a
 
 GOALS
 
