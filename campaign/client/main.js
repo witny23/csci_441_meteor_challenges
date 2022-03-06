@@ -11,7 +11,7 @@ import {Instructions} from '../imports/instructions.js';
 
 const renderCandidates = function (candidateObject) {
   let candidateInfo = candidateObject.map(function(candidate){
-    return <p key={candidate._id}>{candidate.name} has {candidate.vote} vote[s]</p>;
+    return <p key={candidate._id}>{candidate.name} has {candidate.votes} vote[s]</p>;
   });
   return candidateInfo;
 };
