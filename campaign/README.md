@@ -1,5 +1,5 @@
 
-git React Props Challenges for vids 16a - 16b
+git React Props Challenges for vids 16a - 16b: Solution
 
 GOALS
 

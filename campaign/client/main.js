@@ -7,6 +7,7 @@ import Instructions from '../imports/ui/Instructions.js'; // default export so n
 
 import TitleBar from './../imports/ui/TitleBar.js'; // default export so no {}
 import AddCandidates from './../imports/ui/AddCandidates.js';
+import Footer from './../imports/ui/Footer.js';
 
 
 const renderCandidates = (candidateObject) => {
@@ -53,9 +54,9 @@ Meteor.startup(() => {
 
     let candidates = Candidates.find().fetch();
     // let title = 'The big Campaign';
-
+    footer_content = 'my foot';
     let jsx = (
-      <div>
+      <>
         <Instructions />
 
         <hr></hr>
@@ -69,7 +70,8 @@ Meteor.startup(() => {
         </form>
         <AddCandidates/>
         {renderCandidates(candidates)}
-      </div>
+        <Footer footer_prop={footer_content}/>
+      </>
     );
     ReactDom.render(jsx, document.getElementById('content'));
   });
