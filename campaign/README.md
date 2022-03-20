@@ -1,5 +1,5 @@
 
-git Completed React Component chllngs for vids 15a, 15b
+git React Props Challenges for vids 16a - 16b
 
 GOALS
 
@@ -7,9 +7,9 @@ GOALS
 
         https://github.com/witny23/441_meteor_lecture_project.git
 
+        16a - React props: 9d44f6a88b99eaea9e2f5ebfbb7ec6b975071c42
+        16b - challenge - add moderator name prop to titleBar: 66dfb05efe763e4cf55d91668db16383df690199
 
-        15a - first React: fd09e182d94fa379b061ad8efdd99d48c982ea7a
-        15b - challenge - React component placeholder: 11ad6c225fefe2481b82d784282fa47883a0d7bf
 
 INSTRUCTIONS
 
@@ -17,7 +17,7 @@ INSTRUCTIONS
 
 
 
-Stop runaway mongo on windows
+Stop runaway node or mongo on windows
 
 taskkill /f /im mongod.exe
 taskkill /f /im node.exe
