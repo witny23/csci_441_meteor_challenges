@@ -1,5 +1,5 @@
 
-git React props, bind, and require Challenges for vids 17a - 18c
+git React props, bind, and require Challenges for vids 17a - 18c: solution
 
 GOALS
 
