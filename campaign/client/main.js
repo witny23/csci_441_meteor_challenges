@@ -6,19 +6,8 @@ import {Tracker} from 'meteor/tracker';
 import Instructions from '../imports/ui/Instructions.js'; 
 import TitleBar from './../imports/ui/TitleBar.js'; 
 import AddCandidates from './../imports/ui/AddCandidates.js';
-
 import CandidateList from '../imports/ui/CandidateList.js';
-
-// import Candidate from './../imports/ui/Candidate.js'; 
-{/* move the following to the CandidateList.js component */}
-// const renderCandidates = (candidateObject) => {
-//   let candidateInfo = candidateObject.map((candidate) => {
-//     return <Candidate key={candidate._id} candidate_prop={candidate} />;
-//   });
-//   return candidateInfo;
-// };
-
-
+import App from '../imports/ui/App.js';
 
 Meteor.startup(() => {
   Tracker.autorun(() => { 
@@ -31,10 +20,7 @@ Meteor.startup(() => {
 
         <hr></hr>
         <TitleBar title_prop={title}/>
-
-
         <AddCandidates/>
-        {/* {renderCandidates(candidates_in_db)} */}
         <CandidateList candidate_obj_prop={candidates_in_db}/>
       </>
     );
