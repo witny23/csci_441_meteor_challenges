@@ -47,7 +47,7 @@ export default class Instructions extends React.Component{
           </ul>
         </li>
       </ul>
-
+      <hr></hr>
 
  
     </>

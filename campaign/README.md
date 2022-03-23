@@ -1,9 +1,10 @@
 
-git JSX Conditionals and App Component Challenge - vids 20a-21a
+git JSX Conditionals and App Component Challenge - vids 20a-21a: Solution
 
 GOALS
 
     Practice JSX Conditionals
+    
     Practice setting up an App component that render other components (e.g., TitleBar, AddCandidates, CandidateList)
     
     To practice concepts as found in the following videos/git repo
