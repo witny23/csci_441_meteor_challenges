@@ -1,5 +1,5 @@
 
-git Component Lists Challenge - vid 19a
+git Component Lists Challenge - vid 19a: Solution
 
 GOALS
 
