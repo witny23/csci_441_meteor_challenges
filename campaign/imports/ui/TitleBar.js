@@ -4,7 +4,7 @@ import React from 'react';
 
 export default class TitleBar extends React.Component{
   renderModerator() {
-    if (this.props.moderator_prop) {  // check for the existance of the prop (not the length b/c no length is not exist)
+    if (this.props.moderator_prop) { 
       return (
         <p>Candidate Moderator: {this.props.moderator_prop}</p>
       );
