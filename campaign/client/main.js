@@ -9,7 +9,8 @@ import App from '../imports/ui/App.js';
 Meteor.startup(() => {
   Tracker.autorun(() => { 
 
-    let candidates_in_db = Candidates.find().fetch();
+    // let candidates_in_db = Candidates.find().fetch();
+    let candidates_in_db = Candidates.find({}, {sort: {votes: -1}}).fetch();
     let title = 'The big Campaign';
     let moderator = 'Grace Hopper';
 

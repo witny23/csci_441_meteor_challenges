@@ -1,5 +1,5 @@
 
-git mongoDB sorting Challenge - vid 22a
+git mongoDB sorting Challenge - vid 22a: Solution
 
 GOALS
 
