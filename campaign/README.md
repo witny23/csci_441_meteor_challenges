@@ -1,17 +1,23 @@
 
-git mongoDB sorting Challenge - vid 22a: Solution
+git scss Challenge: Start - vid 23a - 25a
 
 GOALS
 
-    Practice sorting
+    Practice scss and scss imports
     
     To practice concepts as found in the following videos/git repo
 
         https://github.com/witny23/441_meteor_lecture_project.git
 
-       22a - mongoDB sorting.mp4: git checkout a5718f2ab4a5d660568f00c1dbdb1141477b7fcf
+        vid 23a - scss intro.mp4: git checkout 483327ddaceb891f3c18dc59bb80e1ee266a84de
+        vid 24a - scss style header.mp4: git checkout 1d6814ee4a888b1c186418275bee104136e8badf
+        vid 25a - scss imports.mp4: git checkout c324bcaab94bd4097976fd7ec554b87acde1f986
 
-    Docs: Meteor Sort Specifiers - https://docs.meteor.com/api/collections.html#sortspecifiers
+    Docs: 
+    SASS Basics: http://sass-lang.com/guide
+    Meteor atmosphere package: fourseven:scss https://atmospherejs.com/fourseven/scss
+    SASS Import: https://sass-lang.com/documentation/at-rules/import
+    SASS Modules:  https://sass-lang.com/guide#topic-5 
     
 
 

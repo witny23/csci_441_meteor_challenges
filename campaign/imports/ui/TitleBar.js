@@ -15,10 +15,13 @@ export default class TitleBar extends React.Component{
   
   render(){
     return (
-      <>
-        <h1>{this.props.title_prop}</h1>
-        {this.renderModerator()}
-      </>
+      <div className='wrapper'>
+        <div className="title-bar">
+          <h1>{this.props.title_prop}</h1>
+          {this.renderModerator()}
+        </div>
+      </div>
+
     );
   }
 };
