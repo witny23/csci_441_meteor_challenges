@@ -15,7 +15,15 @@ export default class Instructions extends React.Component{
             rendered Candidate Component):
           <ul>
             <li>Create a class selector to be used for each list item (name of your choice). 
-              Then change the background color to the color of your choice.</li>
+              Then: 
+              <ul>
+                <li>change the background color to the color of your choice</li>
+                <li>create a border</li>
+                <li>space elements out with a small margin using rem</li>
+                <li>space out the contents in each container with padding (use rem)</li>
+              </ul>
+            </li>
+            
           </ul>
       </li>
       <li>imports/client/styles/_main.scss
@@ -26,7 +34,8 @@ export default class Instructions extends React.Component{
       <li>Place a className="name of the class you just created" on the appropriate form element.  
       </li>
       <li>Place the same className='...' on the individual candidate element rendered in the list.</li>
-      <li>Test to ensure your background is loading as intended.</li>
+      <li>Place the same className='...' on the message that encourages a new candidate (only shows up with no candidates)</li>
+      <li>Test to ensure everything is loading as intended.</li>
       <hr/><hr/>
     </>
     );
