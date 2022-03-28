@@ -11,7 +11,7 @@ export default class Instructions extends React.Component{
       <li>The TitleBar Component's content is centered. Do the same for the content rendered 
             from the AddCandidates and the CandidateList components</li>
       <h2>Part 2: Stylize each Candidate Component element as rendered by the CandidateList (vid 24a)</h2>
-      <li>Create a imports/client/styles/_singleItem.scss partial (will be used to control look of 
+      <li>Create a imports/client/styles/components/_singleItem.scss partial (will be used to control look of 
             rendered Candidate Component):
           <ul>
             <li>Create a class selector to be used for each list item (name of your choice). 
