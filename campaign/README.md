@@ -1,5 +1,5 @@
 
-git scss Challenge: Start - vids 26a & 27a
+git scss Challenge: Start - vid 26a
 
 GOALS
 
@@ -11,7 +11,6 @@ GOALS
 
 
         vid 26a - scss form and topic style: git checkout 0895922d0c1f098371a9765a7e3b58fa28da5b8a
-        vid 27a - challenge - footer component scss: git checkout 404d91be35e0e5e46dbc6a87b050ce3941272b1d
 
 
     Docs: 

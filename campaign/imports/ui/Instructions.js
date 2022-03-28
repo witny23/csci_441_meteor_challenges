@@ -10,7 +10,7 @@ export default class Instructions extends React.Component{
       <h2>Part 1: Centering content  (vid 26a) </h2>
       <li>The TitleBar Component's content is centered. Do the same for the content rendered 
             from the AddCandidates and the CandidateList components</li>
-      <h2>Part 2: Stylize each Candidate Component element as rendered by the CandidateList (vid 24a)</h2>
+      <h2>Part 2: Stylize each Candidate Component element as rendered by the CandidateList (vid 26a)</h2>
       <li>Create a imports/client/styles/components/_singleItem.scss partial (will be used to control look of 
             rendered Candidate Component):
           <ul>
