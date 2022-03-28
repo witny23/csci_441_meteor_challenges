@@ -8,7 +8,9 @@ export default class CandidateList extends React.Component {
     renderCandidates() {
       if (this.props.candidate_obj_prop.length === 0){
         return (
-          <p>Add a new candidate to get started</p>
+          <div className='singleItemStyle'>
+            <p>Add a new candidate to get started</p>
+          </div>
         );
       } else {
           let candidateInfo = this.props.candidate_obj_prop.map((candidate) => {

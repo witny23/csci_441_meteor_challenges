@@ -1,5 +1,5 @@
 
-git scss Challenge: Start - vid 26a
+git scss Challenge: Complete - vid 26a
 
 GOALS
 
