@@ -1,5 +1,5 @@
 
-git scss Challenge: Complete - vid 23a - 25a
+git scss Challenge: Start - vids 26a & 27a
 
 GOALS
 
@@ -9,15 +9,16 @@ GOALS
 
         https://github.com/witny23/441_meteor_lecture_project.git
 
-        vid 23a - scss intro.mp4: git checkout 483327ddaceb891f3c18dc59bb80e1ee266a84de
-        vid 24a - scss style header.mp4: git checkout 1d6814ee4a888b1c186418275bee104136e8badf
-        vid 25a - scss imports.mp4: git checkout c324bcaab94bd4097976fd7ec554b87acde1f986
+
+        vid 26a - scss form and topic style: git checkout 0895922d0c1f098371a9765a7e3b58fa28da5b8a
+        vid 27a - challenge - footer component scss: git checkout 404d91be35e0e5e46dbc6a87b050ce3941272b1d
+
 
     Docs: 
-    SASS Basics: http://sass-lang.com/guide
-    Meteor atmosphere package: fourseven:scss https://atmospherejs.com/fourseven/scss
-    SASS Import: https://sass-lang.com/documentation/at-rules/import
-    SASS Modules:  https://sass-lang.com/guide#topic-5 
+        SASS Basics: http://sass-lang.com/guide
+        Meteor atmosphere package: fourseven:scss https://atmospherejs.com/fourseven/scss
+        SASS Import: https://sass-lang.com/documentation/at-rules/import
+        SASS Modules:  https://sass-lang.com/guide#topic-5 
     
 
 
