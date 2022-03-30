@@ -1,5 +1,5 @@
 
-git Component / scss Challenge: Start - vid 27a
+git Component / scss Challenge: Solution - vid 27a
 
 GOALS
 
