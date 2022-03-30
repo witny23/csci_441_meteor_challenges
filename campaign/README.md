@@ -1,5 +1,5 @@
 
-git scss Challenge: Complete - vid 26a
+git Component / scss Challenge: Start - vid 27a
 
 GOALS
 
@@ -10,7 +10,7 @@ GOALS
         https://github.com/witny23/441_meteor_lecture_project.git
 
 
-        vid 26a - scss form and topic style: git checkout 0895922d0c1f098371a9765a7e3b58fa28da5b8a
+        vid 27a - challenge - footer component scss.mp4: git checkout 404d91be35e0e5e46dbc6a87b050ce3941272b1d
 
 
     Docs: 
