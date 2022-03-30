@@ -1,5 +1,5 @@
 
-git Component / scss Challenge: Solution - vid 27a
+git BEM Challenge: Start - vid 28a-30a
 
 GOALS
 
@@ -9,15 +9,13 @@ GOALS
 
         https://github.com/witny23/441_meteor_lecture_project.git
 
-
-        vid 27a - challenge - footer component scss.mp4: git checkout 404d91be35e0e5e46dbc6a87b050ce3941272b1d
+        vid 28a - bem - block element modifier intro.mp4: git checkout e43c9da9f126f4ec52f6c142025f0a5c31bb3d34
+        vid 29a - bem continued.mp4: git checkout c01322cbfd20ee435018ce64621d52871e3498db
+        vid 30a - challenge - bem.mp4: git checkout 8264ad9b2de82811ae8d037c79101e874bd789f2
 
 
     Docs: 
-        SASS Basics: http://sass-lang.com/guide
-        Meteor atmosphere package: fourseven:scss https://atmospherejs.com/fourseven/scss
-        SASS Import: https://sass-lang.com/documentation/at-rules/import
-        SASS Modules:  https://sass-lang.com/guide#topic-5 
+        BEM Naming conventions: https://en.bem.info/methodology/naming-convention/
     
 
 
