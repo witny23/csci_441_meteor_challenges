@@ -14,7 +14,7 @@ export default class Candidate extends React.Component{
                     
                     <p className='candidate__votes'>has {this.props.candidate_prop.votes} vote[s] {' '}</p>
                 </div>
-                <div class='candidate__actions'>
+                <div className='candidate__actions'>
                     <button className='button button--round' onClick={() => { 
                         Candidates.remove({_id: this.props.candidate_prop._id})
                     }}>X</button> 
