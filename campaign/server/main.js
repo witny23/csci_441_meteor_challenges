@@ -58,13 +58,15 @@ let language = 'Mandorin Chinese';
 // - create a new object then console log that object so it will
 //    look like the following when logged
 
-//      { country: China, city: Beijing, population: 21540000, language: Mandorin Chinese }
+//      { country_name: China, city: Beijing, population: 21540000, language: Mandorin Chinese }
 
 // notice the city changed, country_name stayed the same, language variable was used
 //  and a new population: 21540000 property was created
 
 //  make sure to use Object Spread Operator and Object Property Shorthand
 //    to recreate the previous object
+
+
 
 
 

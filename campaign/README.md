@@ -1,5 +1,5 @@
 
-git react-flip-move & object spread: Challenge - vid 32a + 33a
+git react-flip-move & object spread: Challenge - vids 32a + 33a
 
 GOALS
 
