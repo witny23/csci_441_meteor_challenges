@@ -1,5 +1,5 @@
 
-git BEM Challenge: Solution - vid 28a-30a
+git Stylize the Candidate: Start - vid 31a
 
 GOALS
 
@@ -9,13 +9,12 @@ GOALS
 
         https://github.com/witny23/441_meteor_lecture_project.git
 
-        vid 28a - bem - block element modifier intro.mp4: git checkout e43c9da9f126f4ec52f6c142025f0a5c31bb3d34
-        vid 29a - bem continued.mp4: git checkout c01322cbfd20ee435018ce64621d52871e3498db
-        vid 30a - challenge - bem.mp4: git checkout 8264ad9b2de82811ae8d037c79101e874bd789f2
-
+        gitHub 31a - flexbox.mp4: git checkout 97bd6d237e95d141fa1b6d133eb5d0d99a1e9459
 
     Docs: 
-        BEM Naming conventions: https://en.bem.info/methodology/naming-convention/
+        CSS Flexible Box Layout: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
+        
+        justify-content: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
     
 
 
