@@ -1,5 +1,5 @@
 
-git Stylize the Candidate: Start - vid 31a
+git Stylize the Candidate: Solution - vid 31a
 
 GOALS
 
