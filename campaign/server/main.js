@@ -67,7 +67,14 @@ let language = 'Mandorin Chinese';
 //    to recreate the previous object
 
 
+let country2 = {
+  ...country,
+  city: 'Beijing',
+  language,
+  population: 21540000
+}
 
+console.log(country2);
 
 
 
