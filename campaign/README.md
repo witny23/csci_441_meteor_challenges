@@ -1,5 +1,5 @@
 
-git Stylize the Candidate: Solution - vid 31a
+git react-flip-move & object spread: Challenge - vid 32a + 33a
 
 GOALS
 
@@ -9,12 +9,14 @@ GOALS
 
         https://github.com/witny23/441_meteor_lecture_project.git
 
-        gitHub 31a - flexbox.mp4: git checkout 97bd6d237e95d141fa1b6d133eb5d0d99a1e9459
+        gitHub 32a - third party React components (react-flip-move).mp4: git checkout 73eba45ca9f7e385edc5ac9a3266f57927dc3653
+
+        gitHub 33a - ES6 intro to object spread operator & object property shorthand.mp4: git checkout 12fab3e84ab2445fa9484db4051d73e8d45d0f6b
 
     Docs: 
-        CSS Flexible Box Layout: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
-        
-        justify-content: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+        React Flip Move: https://www.npmjs.com/package/react-flip-move
+        meteor npm i react-flip-move
+    
     
 
 
