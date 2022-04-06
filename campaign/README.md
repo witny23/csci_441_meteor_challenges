@@ -1,5 +1,5 @@
 
-git react-flip-move & object spread: Challenge solution - vids 32a + 33a
+rank and place: Challenge solution - vid 33b
 
 GOALS
 
@@ -9,13 +9,13 @@ GOALS
 
         https://github.com/witny23/441_meteor_lecture_project.git
 
-        gitHub 32a - third party React components (react-flip-move).mp4: git checkout 73eba45ca9f7e385edc5ac9a3266f57927dc3653
+        33b - calculate rank and position for posts with ES6.mp4: git checkout 5daa118c53df3169583b30e5a49c8bb2b31e96f1
 
-        gitHub 33a - ES6 intro to object spread operator & object property shorthand.mp4: git checkout 12fab3e84ab2445fa9484db4051d73e8d45d0f6b
+        
 
     Docs: 
-        React Flip Move: https://www.npmjs.com/package/react-flip-move
-        meteor npm i react-flip-move
+        Nmeral.js - http://numeraljs.com/
+        npm install numeral
     
     
 
