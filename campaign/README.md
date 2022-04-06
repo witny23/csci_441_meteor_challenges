@@ -1,5 +1,5 @@
 
-rank and place: Challenge challenge - vid 33b
+rank and place: Challenge solution - vid 33b
 
 GOALS
 

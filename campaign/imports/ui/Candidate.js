@@ -11,8 +11,10 @@ export default class Candidate extends React.Component{
             <div className='candidate'>
                 <div>
                     <h2 className='candidate__name'>{' ' + this.props.candidate_prop.name} </h2>
+                    {'rank: ' + this.props.candidate_prop.rank}
                     <p className='candidate__votes'>
-                        has {this.props.candidate_prop.votes} vote[s] {' '}
+                        {this.props.candidate_prop.position + ' place '}
+                        with {this.props.candidate_prop.votes} vote[s] {' '}
                     </p>
                 </div>
                 <div className='candidate__actions'>
