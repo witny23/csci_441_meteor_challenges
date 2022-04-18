@@ -5,15 +5,27 @@ export default class Instructions extends React.Component{
     return (
     <div className='content'>
       <h1>Instructions</h1>
-      <p>The purpose of this challenges is to debug and complete code using knowledge gained and lessons learned up to this point.
+      <p>The purpose of this challenges is practice React Routes and &#60;Link&#62; (vids 02a, 02b) 
       </p>
-      <h2>Part 1: Rank and position  (vid 33b) </h2>
-      <p>A team member of yours has fallen ill. They intended to replicate the following image but hadn't 
-          completed their work. Since you are awesome, your task is to debug their code and finish their work. 
-          The following is an image of their vision for implementing rank and place. Don't forget, the console 
-          is a great resource when debugging.
-      </p><br />
-      <img src='rank_place.jpg' alt='representation of rank and place added to candidates' />
+      <h2>Part 1: React Routes  </h2>
+      <ol>
+        <li>Currently, the main.js is rendering the Instructions component and the App component. We would
+          rather that they render separately based on their own route. To this end, utilize 
+          BrowserRouter, Routes, and Route to permit rendering based on the component's path. Set up the
+          Instructions component as the default root directory (i.e., http://localhost:3000/)</li>
+          <li>Create a NotFound.js that exports a functional component returns a not found message</li>
+          <li>Test each route in the url to make sure they work</li>
+      </ol>
+      
+      <h2>Part 2: &#60;Link&#62;</h2>
+      <ol>
+        <li>Create a NavLinks.js that exports a nav bar with links to the Instructions Component and the 
+          App Component. 
+        </li>
+        <li>Put these links at the top of the Instructions and App Components</li>
+        <li>Test as needed.</li>
+      </ol>
+     <br />
       <br></br><br></br><hr/><hr/>
     </div>
     );

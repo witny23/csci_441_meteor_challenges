@@ -1,23 +1,31 @@
 
-rank and place: Challenge solution - vid 33b
+Route and Link challenge
 
 GOALS
 
-    Practice scss and scss imports
-    
-    To practice concepts as found in the following videos/git repo
+    Understand the utilization and implementation of:
 
-        https://github.com/witny23/441_meteor_lecture_project.git
+        React Router
+        - https://www.w3schools.com/react/react_router.asp
+        - https://reactrouter.com/docs/en/v6/getting-started/overview
 
-        33b - calculate rank and position for posts with ES6.mp4: git checkout 5daa118c53df3169583b30e5a49c8bb2b31e96f1
+        BrowserRouter - A <Router> that uses the HTML5 history API (pushState, replaceState and the popstate event) to keep your UI in sync with the URL.
+                - https://v5.reactrouter.com/web/api/BrowserRouter
 
-        
+        Routes - a container consisting of one or more <Route>
 
-    Docs: 
-        Nmeral.js - http://numeraljs.com/
-        npm install numeral
-    
-    
+        Route - An object or Route Element typically with a shape of { path, element } or <Route path element>. The path is a path pattern. When the path pattern matches the current URL, the element will be rendered.
+                - https://reactrouter.com/docs/en/v6/getting-started/concepts
+
+        Route - to put another way: 
+                    Route is the conditionally shown component that renders some UI when its path matches the current URL.
+
+
+        Route Config - A tree of routes objects that will be ranked and matched (with nesting) against the current location to create a branch of route matches.
+            
+        <Link> - is used to set the URL and keep track of browsing history.
+            - Nav links: https://reactrouter.com/docs/en/v6/getting-started/overview#navigation
+            - tutorial: https://reactrouter.com/docs/en/v6/getting-started/tutorial#add-some-links
 
 
 INSTRUCTIONS
