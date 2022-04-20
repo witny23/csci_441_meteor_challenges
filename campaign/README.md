@@ -1,5 +1,5 @@
 
-Authentication and useNavigate() challenge 
+Authentication and useNavigate() challenge solution (vids 03b - 05a) 
 
 INSTALL PROCESS
     In the terminal:
