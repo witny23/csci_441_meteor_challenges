@@ -1,3 +1,8 @@
+// https://sass-lang.com/documentation/modules/color#adjust
+// https://www.w3schools.com/sass/sass_functions_color.php
+$gold: adjust-color(gold, $lightness: 20%);
+$silver: adjust-color(silver, $lightness: 10%);
+
 $remSet: 62.5%;
 
 * { // this is a reset of our margin and padding
@@ -18,7 +23,6 @@ body {
 input, button, select {
   font-size: 1.5rem;
 }
-
 
 @import './components/_titleBar.scss';  //  ./ indicates to start in current folder
 @import './components/_wrapper.scss';

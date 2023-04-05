@@ -1,37 +1,19 @@
 
-Authentication and useNavigate() challenge solution (vids 03b - 05a) 
+dynamic classes and scss functions challenge solution (vid 34a) 
 
-INSTALL PROCESS
-    In the terminal:
-        meteor add accounts-password
-            - accounts-password is being added to meteor vs specifically to your project
 
 
 GOALS
 
-    Understand the utilization and implementation of:
+    practice with dynamic classes and scss functions
+    as found in the following videos/git repo
 
-    accounts-password
-        - Passwords Docs: https://docs.meteor.com/api/passwords.html
-            -  The accounts-password package contains a full system for 
-                password-based authentication. In addition to the basic username and password-based sign-in process, it also supports email-based sign-in including address verification and password recovery emails.
-        - Accounts.createUser: https://docs.meteor.com/api/passwords.html#Accounts-createUser  
-        - Accounts: https://docs.meteor.com/api/accounts.html
+    https://github.com/witny23/441_meteor_lecture_project.git
 
-
-    In imports/ui/Signup.js:
-        create new user accounts
-        - have meteor do the hard work of creating accounts b/c of its built in capabilities
-            in submitForm we call one meteor method and meteor does the rest
-            - hash password, communicate with server, manage auth tokens
-
-        Using the useState Hook and Working with Forms in React.js:
-        - https://dev.to/jleewebdev/using-the-usestate-hook-and-working-with-forms-in-react-js-m6b
+    34a - dynamic classes and scss functions.mp4: git checkout e8b32f9a2a1cb219f51f1c15c37eb813ae6c38cd
+        
 
 
-    - Login.jsx
-        - learn about Meteor.loginWithPassword(user: Object | string, password: string, [callback])
-        - Docs: https://docs.meteor.com/api/accounts.html#Meteor-loginWithPassword
 
 
 
