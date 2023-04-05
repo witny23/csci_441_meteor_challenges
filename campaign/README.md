@@ -1,5 +1,5 @@
 
-dynamic classes and scss functions challenge solution (vid 34a) 
+dynamic classes and scss functions challenge (vid 34a) 
 
 
 
