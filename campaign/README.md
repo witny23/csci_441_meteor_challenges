@@ -1,5 +1,5 @@
 
-comment, link, and style challenge: Challenge - vid 35a
+comment, link, and style: Challenge solution - vid 35a
 
 GOALS
 
