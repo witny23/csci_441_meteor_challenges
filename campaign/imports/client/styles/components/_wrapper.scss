@@ -1,6 +1,7 @@
-.wrapper{
+.wrapper{ 
     margin: 0 auto;
     max-width: 50rem; // 500px based off the unit sizing
     padding: 1.3rem;  // 13px
-    background-color: darkgrey;
+    background-color: $darkgrey;
+    border-radius: $radius $radius 0px 0px;
   }

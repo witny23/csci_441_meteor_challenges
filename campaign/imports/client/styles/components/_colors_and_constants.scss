@@ -1,0 +1,12 @@
+// https://sass-lang.com/documentation/modules/color#adjust
+// https://www.w3schools.com/sass/sass_functions_color.php
+$gold: adjust-color(rgb(255,215,0), $lightness: 20%);
+$silver: adjust-color(rgb(192,192,192), $lightness: 10%);
+$salmon: adjust-color(rgb(255,160,122), $lightness: 20%);
+$lightblue: adjust-color(rgb(173,216,230), $lightness: 15%);
+$lightgreen: adjust-color(rgb(144,238,144), $lightness: 20%);
+$seagreen: adjust-color(rgb(46,139,87), $lightness: 5%);
+$lightgrey: adjust-color(rgb(211,211,211), $lightness: 5%);
+$darkgrey: adjust-color(rgb(169,169,169), $lightness: 5%);
+
+$radius: 6px;

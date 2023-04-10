@@ -1,23 +1,15 @@
 
-dynamic classes and scss functions challenge (vid 34a) 
-
-
+comment, link, and style challenge: Challenge - vid 35a
 
 GOALS
 
-    practice with dynamic classes and scss functions
-    as found in the following videos/git repo
+    practice with components, db comm and links
 
     https://github.com/witny23/441_meteor_lecture_project.git
 
-    34a - dynamic classes and scss functions.mp4: git checkout e8b32f9a2a1cb219f51f1c15c37eb813ae6c38cd
-        
+    35a - video gitHub 35a - reply and link challenge.mp4: git checkout 7667ff99d4e1ab5295d0a916e95ebddca42e65cb
 
-
-
-
-
-
+    
 INSTRUCTIONS
 
     Found on main.html when program is running or in imports/ui/Instructions.js
